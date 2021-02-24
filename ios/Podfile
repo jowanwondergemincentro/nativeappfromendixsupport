@@ -55,6 +55,8 @@ target 'nativeTemplate' do
   common_pods
   # Intentionally left empty
 
+  pod 'RNPermissions', :path => '../node_modules/react-native-permissions'
+
 end
 
 target 'dev' do
