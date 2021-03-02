@@ -43,7 +43,7 @@
     "react-native-view-shot": "3.1.2",
     "react-native-webview": "8.1.2",
     "scandit-react-native-datacapture-barcode": "^6.6.3",
-    "scandit-react-native-datacapture-core": "^6.8.0-beta.1.snapshot"
+    "scandit-react-native-datacapture-core": "^6.6.3"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
