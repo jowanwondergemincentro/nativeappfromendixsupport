@@ -11,6 +11,8 @@ import com.mendix.mendixnative.react.splash.MendixSplashScreenPresenter;
 import com.microsoft.codepush.react.CodePush;
 //import com.spyworldxp.barcodescanner.BarcodeScannerPackage;
 import org.devio.rn.splashscreen.SplashScreen;
+import com.scandit.datacapture.reactnative.core; //scandit custom dependencies
+import com.scandit.datacapture.reactnative.barcode;//scandit custom dependencies
 
 import java.util.List;
 
@@ -28,6 +30,8 @@ public class MainApplication extends MendixReactApplication {
         // Packages that cannot be autolinked yet can be added manually here, for example:
         // packages.add(new MyReactNativePackage());
         //packages.add(new BarcodeScannerPackage());
+        packages.add(new ScanditDataCaptureCorePackage());
+        packages.add(new ScanditDataCaptureBarcodePackage());
         packages.add(new CodePush(getCodePushKey(), getApplicationContext(), BuildConfig.DEBUG));
 
         return packages;
