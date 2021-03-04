@@ -11,8 +11,8 @@ import com.mendix.mendixnative.react.splash.MendixSplashScreenPresenter;
 import com.microsoft.codepush.react.CodePush;
 //import com.spyworldxp.barcodescanner.BarcodeScannerPackage;
 import org.devio.rn.splashscreen.SplashScreen;
-import com.scandit.datacapture.reactnative.core; //scandit custom dependencies
-import com.scandit.datacapture.reactnative.barcode;//scandit custom dependencies
+import com.scandit.datacapture.reactnative.core.ScanditDataCaptureCorePackage; //scandit custom dependencies
+import com.scandit.datacapture.reactnative.barcode.ScanditDataCaptureBarcodePackage;//scandit custom dependencies
 
 import java.util.List;
 
