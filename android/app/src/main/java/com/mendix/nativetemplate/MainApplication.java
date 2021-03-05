@@ -30,8 +30,8 @@ public class MainApplication extends MendixReactApplication {
         // Packages that cannot be autolinked yet can be added manually here, for example:
         // packages.add(new MyReactNativePackage());
         //packages.add(new BarcodeScannerPackage());
-        packages.add(new ScanditDataCaptureCorePackage());
-        packages.add(new ScanditDataCaptureBarcodePackage());
+        //packages.add(new ScanditDataCaptureCorePackage());
+        //packages.add(new ScanditDataCaptureBarcodePackage());
         packages.add(new CodePush(getCodePushKey(), getApplicationContext(), BuildConfig.DEBUG));
 
         return packages;
